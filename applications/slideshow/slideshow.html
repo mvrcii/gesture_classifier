@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Demo Slideshow</title>
+
+    <link rel="stylesheet" href="static/dist/reset.css">
+    <link rel="stylesheet" href="static/dist/reveal.css">
+    <link rel="stylesheet" href="static/dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="static/plugin/highlight/monokai.css" id="highlight-theme">
+
+    <style>
+        .rotatable {
+            transition: all 0.25s ease-in;
+        }
+    </style>
+
+    <!-- in here you'll find initializers for the websockets and some helper methods -->
+    <script src="static/helper_methods.js"></script>
+
+    <!-- this script holds code that listens on websocket events -->
+    <script src="static/event_listeners.js"></script>
+</head>
+
+<body class="scale">
+<div class="reveal">
+    <div class="slides">
+        <section data-markdown>
+            # Machine Learning Project WS22/23
+
+            Team 7
+
+        </section>
+        <section>
+            <p>Swipe down or up for subslides</p>
+
+            <section>
+                <p>Subslide 1</p>
+            </section>
+            <section>
+                <p>Subslide 2</p>
+            </section>
+            <section>
+                <p>Subslide 3</p>
+            </section>
+            <section>
+                <p>Subslide 4</p>
+            </section>
+        </section>
+        <section><img src="static/images/1.jpg" class="rotatable" alt=""></section>
+        <section>
+            <video controls loop class="video">
+                <source src="static/images/stock_footage.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section><img src="static/images/2.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/3.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/4.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/5.jpg" class="rotatable" alt=""></section>
+    </div>
+</div>
+
+
+<script src="static/dist/reveal.js"></script>
+<script src="static/plugin/notes/notes.js"></script>
+<script src="static/plugin/markdown/markdown.js"></script>
+<script src="static/plugin/highlight/highlight.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        hash: true,
+        loop: true,
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+</script>
+</body>
+</html>

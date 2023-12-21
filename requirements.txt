@@ -1,0 +1,11 @@
+opencv-python
+numpy
+mediapipe
+pandas
+pyyaml
+sanic
+matplotlib
+tqdm
+jupyter
+seaborn
+pygame
