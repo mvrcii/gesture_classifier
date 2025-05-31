@@ -1,4 +1,4 @@
-# FNN Gesture Classifier
+# Gesture Classifier with pure numpy
 This repository showcases a self-written gesture classifier developed with pure numpy and without the usage of a machine learning library, such as TensorFlow or PyTorch. It integrates two applications: a reveal.js slideshow and a tetris game. The user is able to control both applications with the use of predefined human gestures.
 
 [Teaser Video](https://gitlab2.informatik.uni-wuerzburg.de/hci/teaching/courses/machine-learning/student-submissions/ws22/Team-7/final-submission/-/blob/main/Teaser/MachineLearning_WS2223_Team7_Teaser.mp4) as well as the [presentation slides](https://gitlab2.informatik.uni-wuerzburg.de/hci/teaching/courses/machine-learning/student-submissions/ws22/Team-7/final-submission/-/blob/main/Teaser/ML_Presentation.pdf)
